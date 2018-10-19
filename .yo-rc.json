@@ -1,0 +1,23 @@
+{
+  "generator-m-ionic": {
+    "answers": {
+      "appName": "Stanjenel Flower Power",
+      "appId": "ro.stanjenel.fpower",
+      "ionicCss": true,
+      "bowerPackages": [
+        "localforage#~1.4.0"
+      ],
+      "platforms": [
+        "android"
+      ],
+      "plugins": [
+        "cordova-plugin-device",
+        "ionic-plugin-keyboard",
+        "cordova-plugin-splashscreen"
+      ],
+      "appModule": "stanjenelFlowerPower",
+      "ecosystems": [],
+      "install": "yarn"
+    }
+  }
+}

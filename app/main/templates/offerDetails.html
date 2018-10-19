@@ -1,0 +1,14 @@
+<ion-view title="Offer details" id="page4">
+  <ion-content padding="true" class="has-header">
+    <ion-list id="offerDetails-list6">
+      <ion-item ng-repeat="product in vm.products" class="item-thumbnail-left">
+        <h2>{{product.name}}</h2>
+        <div class=" item item-image">
+          <img src="{{product.image_url}}" alt="{{product.name}}" style="display: block; width: 100%; height: auto; margin-left: auto; margin-right: auto;">
+        </div>
+        <p style="white-space:normal;">Price {{product.price}} / pcs</p>
+        <p style="white-space:normal;">{{product.details}}</p>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>

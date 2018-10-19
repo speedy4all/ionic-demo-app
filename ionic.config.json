@@ -1,0 +1,8 @@
+{
+    "name": "Stanjenel Flower Power",
+    "integrations": {
+      "cordova": {}
+    },
+    "type": "ionic-angular",
+    "pro_id": "cfc8b8b3"
+  }

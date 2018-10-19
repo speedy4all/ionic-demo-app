@@ -1,0 +1,20 @@
+<ion-view title="Login" id="page6">
+  <ion-content padding="true" class="has-header">
+    <form id="login-form3" class="list">
+      <ion-list id="login-list9">
+        <label class="item item-input" id="login-input10">
+          <input type="email" placeholder="Email" ng-model="vm.email">
+        </label>
+        <label class="item item-input" id="login-input11">
+          <input type="password" placeholder="Password" ng-model="vm.password">
+        </label>
+      </ion-list>
+      <div class="spacer" style="height: 40px;"></div>
+      <button id="login-button3" ng-click="vm.onLogin(vm)" class="button button-stable button-block">Log in</button>
+      <a ui-sref="signup()" id="login-button4" class="button button-positive button-block button-clear">Or create an account</a>
+      <ng-template *ngIf="vm.error !== null">
+        <div class="item red" style="text-align: center; color: red">{{vm.error}}</div>
+      </ng-template>
+    </form>
+  </ion-content>
+</ion-view>
